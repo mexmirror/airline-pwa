@@ -71,7 +71,7 @@ const FieldWithDescription = ({ description, field, highlight = false }: FieldWi
 const QRCode = () => {
   //const url = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=OC345.Today.MrJamesBond.OCA144587"
   return (
-    <div className='flex flex-col border-2 p-6 pb-2 mb-8'>
+    <div className='flex flex-col items-center border-2 p-6 pb-2 mb-8'>
       <img className='w-64' src={boardingPassQrCode} alt='Boarding Pass QR Code'></img>
       <p className='mt-4 text-xs text-slate-400'>OC345.{dateOfFlight}.OCA144587</p>
     </div>
